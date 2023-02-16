@@ -1,11 +1,12 @@
 
 
 .container {
-    background-image: url(images/webcode.jpg);
+    background-image: url(images/Frontend.jpg);
     width: 100%;
-    min-height: 500px;
+    height: 500px;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 
 }
 
@@ -45,7 +46,7 @@
 }
 
 #imgsize {
-    width: 325px;
+    width: 300px;
     height: 200px;
 }
 
@@ -54,19 +55,19 @@
 }
 
 .image1 {
-    width: 325px;
+    width: 300px;
     text-align: justify;
     margin: 0px auto;
 }
 
 .image2 {
-    width: 325px;
+    width: 300px;
     text-align: justify;
     margin: 0px auto;
 }
 
 .image3 {
-    width: 325px;
+    width: 300px;
     text-align: justify;
     margin: 0px auto;
 }
@@ -125,9 +126,6 @@
     padding: 0px 16px;
 }
 
-.container4 {
-    background-color: black;
-}
 
 .conc {
     float: left;
@@ -147,6 +145,11 @@
         height: 420px;
         padding-top: 50px;
     }
+
+    #imgsize {
+        width: 325px;
+        height: 200px;
+    }
     .imgcont {
         width: 100%; 
         display: flex;
@@ -154,14 +157,17 @@
 
     .image1 {
         background-color: white;
+        width: 325px;
     }
 
     .image2 {
         background-color: white;
+        width: 325px;
     }
 
     .image3 {
         background-color: white;
+        width: 325px;
     }
 
 
